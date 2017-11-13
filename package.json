@@ -1,0 +1,26 @@
+{
+  "name": "kitchen-mail-app",
+  "version": "1.0.0",
+  "description": "the awesome kitchen rotation app",
+  "main": "data-provider.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cron": "^1.0.5",
+    "ejs": "^2.5.7",
+    "express": "^4.15.5",
+    "node-schedule": "^0.1.13",
+    "nodemailer": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0",
+    "sinon": "^4.1.2",
+    "sinon-chai": "^2.14.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha src/**/*.spec.js --reporter spec"
+  },
+  "author": "",
+  "license": "ISC"
+}
